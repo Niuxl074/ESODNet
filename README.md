@@ -133,3 +133,21 @@ yolo detect predict \
   model=ESODNet/workdirs/runs/train/best.pt \
   source='ESODNet/dataset/DOTA-v1.0/test/00078.jpg'
 ```
+## 💡 Acknowledgement
+
+This project is built upon the following excellent works:
+
+- [mmdetection](https://github.com/open-mmlab/mmdetection)
+- [YOLOv8](https://github.com/ultralytics/ultralytics)
+
+## 🖊️ Citation
+
+If you find this project useful in your research, please consider citing:
+
+```bibtex
+@article{xxxxxx,
+  title={ESODNet: A Real-Time Small Object Detection Framework for Remote Sensing Images with Cross-Scale Feature Fusion and Adaptive Diffusion},
+  author={x, xx, x, xx, x and xx,},
+  journal={International Journal of Applied Earth Observation and Geoinformation},
+  year={2025}
+}
