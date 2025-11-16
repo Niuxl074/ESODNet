@@ -93,4 +93,9 @@ dataset/
 │           ├── 00002.txt
 │           ├── ...
 
+- `images/` contains all DOTA-v1.0 images for each split (`train`, `val`, `test`).
+- `labels/` contains the corresponding `.txt` annotation files, with the same base file names as the images.
+- DIOR can be organized into a similar `images/` and `labels/` structure according to the requirements of ESODNet.
+- Please ensure that the paths in your configuration files are consistent with this directory structure.
+
 
