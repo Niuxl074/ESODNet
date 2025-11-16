@@ -39,7 +39,7 @@ Overall architecture of ESODNet with a lightweight backbone, the CSAD neck, and 
 ## 🎮 Getting Started
 
 ### 1. Install Environment 
-```bash
+
    conda create --name ESODNet python=3.8
    conda activate ESODNet
 
@@ -54,8 +54,8 @@ Overall architecture of ESODNet with a lightweight backbone, the CSAD neck, and 
    git clone https://github.com/niuxuelei/ESODNet.git
    cd ESODNet
    pip install -r requirements.txt
-
-### 1.  Prepare Dataset
+### 2. Prepare Dataset 
+Install Environment 
 
 ```text
 1) 下载 DOTA-v1.0 和 DIOR 数据集
