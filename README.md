@@ -38,5 +38,5 @@ all of which complicate the accurate classification and regression of objects.
 
 Overall architecture of ESODNet with a lightweight backbone, the CSAD neck, and the LTFA Head that jointly support real-time multi-scale object prediction.
 
-> (You can put a framework figure here, e.g. by inserting an image:)  
-> ![Framework Overview](resources/overview.png)
+<img width="662" height="253" alt="image" src="https://github.com/user-attachments/assets/7d13b35e-1815-4882-8ce8-4e14154df9b6" />
+
