@@ -60,7 +60,7 @@ pip install -r requirements.txt
    
 ### 2. Prepare Dataset 
 
-```text
+
 1) 下载 DOTA-v1.0 和 DIOR 数据集
    DOTA-v1.0: https://captain-whu.github.io/DOTA/index.html
    DIOR:      https://gcheng-nwpu.github.io/#Datasets
@@ -97,7 +97,7 @@ dataset/
 │           ├── 00002.txt
 │           ├── ...
 ```
-```text
+
 images/ contains all DOTA-v1.0 images for each split (train, val, test).
 labels/ contains the corresponding .txt annotation files, with the same base file names as the images.
 DIOR can be organized into a similar images/ and labels/ structure according to the requirements of ESODNet.
