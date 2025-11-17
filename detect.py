@@ -3,7 +3,7 @@ warnings.filterwarnings('ignore')
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    model = YOLO('/home/ps/ultralytics-202404066/ultralytics-main/runs/train/exp_yolov8n-FDPN-LSCD1_nwpu2/weights/best.pt') # select your model.pt path
+    model = YOLO('/ESODNet/runs/train/exp_yolov8n-FDPN-LSCD-DOTA-v1.0/weights/best.pt')
     model.predict(source='/ESODNet/dataset/DOTA-v1.0/images/test',
                   imgsz=640,
                   project='runs/detect',
