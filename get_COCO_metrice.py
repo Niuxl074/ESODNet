@@ -5,8 +5,8 @@ from tidecv import TIDE, datasets
 
 def parse_opt():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--anno_json', type=str, default='/ESODNet/dataset/DOTA-v1.0.json', help='training model path')
-    parser.add_argument('--pred_json', type=str, default='/ESODNet/runs/val/exp_ESODNet-n-DOTA-v1.0/predictions.json', help='data yaml path')
+    parser.add_argument('--anno_json', type=str, default='/CLADet/dataset/DOTA-v1.0.json', help='training model path')
+    parser.add_argument('--pred_json', type=str, default='/CLADet/runs/val/exp_CLADet-n-DOTA-v1.0/predictions.json', help='data yaml path')
     
     return parser.parse_known_args()[0]
 
