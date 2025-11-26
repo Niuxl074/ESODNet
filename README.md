@@ -1,5 +1,5 @@
 # ESODNet
-[JAG 2025] Code for "ESODNet: A Real-Time Small Object Detection Framework for Remote Sensing Images with Cross-Scale Feature Fusion and Adaptive Diffusion"
+[JAG 2025] Code for "CLADet: A Cross-Level Feature Integration and Adaptive Diffusion Approach for Remote Sensing Tiny Target Detection"
 # 📦 ESODNet
 
 ## 📖 Introduction
@@ -110,8 +110,8 @@ dataset/
 
 ```bash
 yolo detect train \
-  data=DSODNet/dataset/DOTA-v1.0.yaml \
-  model=DSODNet/model/DOTA-v1.0.yaml \
+  data=CLADet/dataset/DOTA-v1.0.yaml \
+  model=CLADet/model/DOTA-v1.0.yaml \
   epochs=300 \
   imgsz=640
 ```
@@ -122,16 +122,16 @@ yolo detect train \
 
 ```bash
 yolo detect val \
-  model=ESODNet/workdirs/runs/val/best.pt
+  model=CLADet/workdirs/runs/val/best.pt
 ```
 ### 5. 预测
 
-使用经过训练的 ESODNet-n 模型对 DOTA-v1.0 测试集中的图像进行预测，例如对单张 `00078.jpg` 做推理：
+使用经过训练的 CLADet-n 模型对 DOTA-v1.0 测试集中的图像进行预测，例如对单张 `00078.jpg` 做推理：
 
 ```bash
 yolo detect predict \
-  model=ESODNet/workdirs/runs/train/best.pt \
-  source='ESODNet/dataset/DOTA-v1.0/test/00078.jpg'
+  model=CLADet/workdirs/runs/train/best.pt \
+  source='CLADet/dataset/DOTA-v1.0/test/00078.jpg'
 ```
 ## 💡 Acknowledgement
 
@@ -146,7 +146,7 @@ If you find this project useful in your research, please consider citing:
 
 ```bibtex
 @article{xxxxxx,
-  title={ESODNet: A Real-Time Small Object Detection Framework for Remote Sensing Images with Cross-Scale Feature Fusion and Adaptive Diffusion},
+  title={CLADet: A Cross-Level Feature Integration and Adaptive Diffusion Approach for Remote Sensing Tiny Target Detection},
   author={x, xx, x, xx, x and xx,},
   journal={International Journal of Applied Earth Observation and Geoinformation},
   year={2025}
